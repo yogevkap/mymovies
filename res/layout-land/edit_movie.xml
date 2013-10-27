@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+                android:id="@+id/edit_online_movie_picture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxHeight="150dp"
+				android:maxWidth="150dp"
+				android:minHeight="150dp"
+ 				android:minWidth="150dp"
+ 				android:scaleType="centerInside"
+ 				android:adjustViewBounds="true"
+ 				android:src="@drawable/movie"
+                android:contentDescription="@string/edit_online_image" />
+        
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="vertical">
+
+	    <TextView
+                android:id="@+id/edit_tvx_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+		<EditText
+  			    android:id="@+id/edit_edx_title" 
+        	    android:layout_width="match_parent" 
+        	    android:layout_height="wrap_content" 
+        	    android:layout_weight="1" 
+        	    android:hint="@string/edit_tvx_title"
+        	    android:singleLine="true" 
+        	    android:visibility="gone"/>
+	    
+		<TextView
+		    android:id="@+id/edit_tvx_date"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textAppearance="?android:attr/textAppearanceMedium" />
+		
+		<EditText
+  			    android:id="@+id/edit_edx_datea" 
+        	    android:layout_width="match_parent" 
+        	    android:layout_height="wrap_content" 
+        	    android:layout_weight="1" 
+        	    android:hint="@string/edit_tvx_date"
+        	    android:singleLine="true" 
+        	    android:visibility="gone"/>
+
+		<TextView
+		    android:id="@+id/edit_tvx_runtime"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textAppearance="?android:attr/textAppearanceMedium" />
+		
+		<EditText
+  			    android:id="@+id/edit_edx_runtime" 
+        	    android:layout_width="match_parent" 
+        	    android:layout_height="wrap_content" 
+        	    android:layout_weight="1" 
+        	    android:hint="@string/edit_tvx_runtime"
+        	    android:singleLine="true" 
+        	    android:visibility="gone"/>
+
+		<TextView
+		    android:id="@+id/edit_tvx_scroe"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textAppearance="?android:attr/textAppearanceMedium" />
+		
+		<EditText
+  			    android:id="@+id/edit_edx_score" 
+        	    android:layout_width="match_parent" 
+        	    android:layout_height="wrap_content" 
+        	    android:layout_weight="1" 
+        	    android:hint="@string/edit_tvx_score"
+        	    android:singleLine="true" 
+        	    android:visibility="gone"/>
+	    
+	</LinearLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/edit_tvx_body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceMedium" /> 
+        
+        <EditText
+            android:id="@+id/edit_edx_body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:hint="@string/edit_tvx_body"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp" >
+
+            <Button
+                android:id="@+id/edit_go_url_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:visibility="gone"
+                android:text="@string/edit_btn_go_url" />
+
+    </LinearLayout>
+
+   
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <CheckBox
+            android:id="@+id/edit_checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/edit_check_box" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <RatingBar
+            android:id="@+id/edit_ratingBar"
+            android:layout_width="wrap_content"
+            android:numStars="5"
+            android:stepSize="1.0"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <Button
+            android:id="@+id/edit_btn_add_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@android:attr/borderlessButtonStyle"
+            android:text="@string/edit_btn_add" />
+
+        <Button
+            android:id="@+id/edit_btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@android:attr/borderlessButtonStyle"
+            android:text="@string/edit_btn_cancel" />
+
+        <Button
+            android:id="@+id/edit_btn_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@android:attr/borderlessButtonStyle"
+            android:text="@string/edit_btn_delete" />
+
+    	</LinearLayout>
+    </LinearLayout>      
+  </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    
+    <!-- MainActivity -->
+    <string name="main_edx_search">Search for a movie in the list</string>
+    
+    <!-- MainActivity AlertDialogs -->
+    <string name="alertdialog_edit_btn">Edit</string>
+    <string name="alertdialog_delete_btn">Delete</string>
+    <string name="aletrdialt_massage">Choose an action</string>   
+    <string name="edit_delete_all_movie">Are you sure you want to delete all movie information?</string>
+    <string name="main_add_online_offline">Do you wish to search for a movie online or add a movie manually?</string>
+    
+    <!-- MainActivity settings main layout -->
+    <string name="action_delete_all">Delete all information</string>
+    <string name="action_exit">Exit application</string>
+    
+    
+   <!-- MainActivity Help  -->
+   <string name="emptylist_title">Your movie list is empty</string>
+   <string name="emptylist_body">Press the + button on the action bar to add a movie to your movie list</string>
+   <string name="actionbar_user_help">Press the plus icon on the actionbar to add movie from online search or to add a movie manually.
+       	press the "search" icon to search movie in your main movie list (movie you already add to your list). Long click on a movie will
+       	pop up a window with the options to edit movie or the delete the movie from the list.</string>
+   
+   <!-- EditMovie Help  -->
+   <string name="edit_actionbar_user_help">Press the sharing icon to share the movie via SMS or Email. Press the camera icon or the picture itself to choose or replace
+       a new picture from the gallery or to make a new photo with your camera. In EditMode, press the pencil icon to edit movie information. When you done,
+        press the add button on the button of the page to add the movie to your list.</string>
+   
+   <!-- OnlineMovieSearch Help  -->
+   <string name="onlinesearch_actionbar_user_help">Press the search area on the action bar to search a movie. To make the search,
+       write via the android virtual keyboard your movie name (or part of it) and then press the search icon on the android virtual keyboard</string>
+   
+    <!-- EditMovie -->
+    <string name="edit_btn_add">Add</string>
+    <string name="edit_btn_go_url">Movie url website</string>
+    <string name="edit_btn_sms">SMS</string>
+    <string name="edit_btn_email">Email</string>
+    <string name="edit_btn_ok">OK</string>
+    <string name="edit_btn_cancel">Cancel</string>
+    <string name="edit_btn_delete">Delete</string>
+    <string name="edit_tvx_title">Add Title</string>
+    <string name="edit_tvx_runtime">Add Runtime</string>
+    <string name="edit_tvx_date">Add Date</string>
+    <string name="edit_tvx_score">Add Score</string>
+    <string name="edit_tvx_body">Add Synopsis</string>
+    <string name="edit_edx_url">Movie WebSite Name</string>
+	<string name="edit_check_box">Did i have seen this movie?</string>
+	<string name="edit_online_image">online_image</string>
+	
+	<!-- EditMovie AlertDialogs -->
+	<string name="edit_delete_movie">Are you sure you want to delete this movie information?</string>
+	<string name="edit_sms_email_btn">How do you wish to send your movie information?</string>
+	<string name="edit_camera">Take a photo or choose a picture from the gallery:</string>
+	
+	<!-- MovieOnLine -->
+	<string name="online_edx_text">Search for movies online</string>
+	<string name="app_label">boga</string>
+	<string name="search_hint">Search for movie online</string>
+	<string name="online_imageview">imageview</string>
+	
+	<!-- ActionBars -->
+	<string name="actionbar_plus">Plus</string>
+	<string name="actionbar_help">Help</string>
+	<string name="actionbar_search">Search</string>
+	<string name="actionbar_share">Share</string>
+	<string name="actionbar_camare">Camara</string>
+	<string name="actionbar_edit">Edit</string>
+	
+</resources>

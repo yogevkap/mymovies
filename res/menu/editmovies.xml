@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+     <!-- AcionBar -->
+    
+    <item 
+	    android:id="@+id/action_edit_camara"
+	    android:orderInCategory="2"
+	    android:showAsAction="always"
+	    android:icon="@drawable/device_access_camera"
+	    android:title="@string/actionbar_camare"/>
+    
+    <item 
+	    android:id="@+id/action_edit_share"
+	    android:orderInCategory="1"
+	    android:showAsAction="always"
+	    android:icon="@drawable/social_share"
+	    android:title="@string/actionbar_share"/>
+    
+     <item 
+	    android:id="@+id/action_edit_edit"
+	    android:orderInCategory="3"
+	    android:showAsAction="always"
+	    android:icon="@drawable/content_edit"
+	    android:title="@string/actionbar_edit"/>
+     
+      <item 
+	    android:id="@+id/help"
+	    android:orderInCategory="3"
+	    android:icon="@drawable/action_help"
+	    android:showAsAction="ifRoom"
+	    android:title="@string/actionbar_help"
+	    />
+
+</menu>

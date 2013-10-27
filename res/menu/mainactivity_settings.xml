@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    	
+	 <item 
+	    android:id="@+id/settings_help"
+	    android:orderInCategory="1"
+	    android:showAsAction="never"
+	    android:title="@string/actionbar_help"
+	    />
+    
+	<item 
+	    android:id="@+id/action_delete_all"
+	    android:orderInCategory="2"
+	    android:showAsAction="never"
+	    android:title="@string/action_delete_all"/>
+	
+	<item 
+	    android:id="@+id/action_exit"
+	    android:orderInCategory="3"
+	    android:showAsAction="never"
+	    android:title="@string/action_exit"/>
+	
+    <!-- AcionBar -->
+    
+    <item 
+	    android:id="@+id/plus"
+	    android:orderInCategory="1"
+	    android:showAsAction="always"
+	    android:icon="@drawable/content_new"
+	    android:title="@string/actionbar_plus"/>
+    
+    
+    <item 
+	    android:id="@+id/main_actionbar_search"
+	    android:orderInCategory="2"
+	    android:icon="@drawable/action_search"
+	    android:title="@string/actionbar_search"
+	    android:showAsAction="ifRoom|collapseActionView"
+	    android:actionViewClass="android.widget.SearchView"/>
+    
+    <item 
+	    android:id="@+id/help"
+	    android:orderInCategory="3"
+	    android:icon="@drawable/action_help"
+	    android:showAsAction="ifRoom"
+	    android:title="@string/actionbar_help"
+	    />
+    	
+
+     
+    
+    
+</menu>
